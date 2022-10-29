@@ -183,7 +183,8 @@ class _RegisterPageState extends State<Register> {
                       .map((String value) {
                     return DropdownMenuItem<String>(
                       value: value,
-                      child: Text(value),
+                      child: 
+                      Text(value),
                     );
                   }).toList(),
                 ),
